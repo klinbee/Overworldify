@@ -1,0 +1,22 @@
+{
+  "feature": "minecraft:warped_fungus",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 4
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_fluids",
+          "fluids": "#minecraft:lava"
+        }
+      }
+    }
+  ]
+}
