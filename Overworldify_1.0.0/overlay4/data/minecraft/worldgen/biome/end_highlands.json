@@ -42,15 +42,11 @@
     [],
     [],
     [],
-    [
-      "minecraft:end_gateway_return"
-    ],
+    ["minecraft:end_gateway_return"],
     [],
     [],
     [],
     [],
-    [
-      "minecraft:chorus_plant"
-    ]
+    ["minecraft:chorus_plant"]
   ]
 }

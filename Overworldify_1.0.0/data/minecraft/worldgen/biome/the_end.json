@@ -39,13 +39,5 @@
       "overworldify:end_canyon"
     ]
   },
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:end_spike"
-    ]
-  ]
+  "features": [[], [], [], [], ["minecraft:end_spike"]]
 }

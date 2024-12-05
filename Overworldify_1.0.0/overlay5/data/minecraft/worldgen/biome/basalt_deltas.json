@@ -4,26 +4,38 @@
   "has_precipitation": false,
   "effects": {
     "sky_color": 7254527,
-    "fog_color": 3344392,
+    "fog_color": 6840176,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.nether_wastes.mood",
+      "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.nether_wastes.additions",
+      "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     },
-    "music": {
-      "sound": "minecraft:music.nether.nether_wastes",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
+    "music": [
+      {
+        "data": {
+          "sound": "minecraft:music.nether.basalt_deltas",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.118093334
+    },
+    "music_volume": 1.0
   },
   "spawners": {
     "ambient": [],
@@ -40,33 +52,15 @@
     "monster": [
       {
         "type": "minecraft:ghast",
-        "weight": 50,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombified_piglin",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:magma_cube",
-        "weight": 2,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:piglin",
-        "weight": 15,
-        "minCount": 4,
-        "maxCount": 4
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
       }
     ],
     "underground_water_creature": [],
@@ -105,11 +99,17 @@
     [],
     [],
     [],
-    [],
+    [
+      "minecraft:delta",
+      "minecraft:small_basalt_columns",
+      "minecraft:large_basalt_columns"
+    ],
     [],
     [],
     [
-      "minecraft:spring_open",
+      "minecraft:basalt_blobs",
+      "minecraft:blackstone_blobs",
+      "minecraft:spring_delta",
       "minecraft:patch_fire",
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
@@ -117,19 +117,11 @@
       "minecraft:brown_mushroom_nether",
       "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
-      "minecraft:spring_closed",
-      "minecraft:ore_gravel_nether",
-      "minecraft:ore_blackstone",
-      "minecraft:ore_gold_nether",
-      "minecraft:ore_quartz_nether",
+      "minecraft:spring_closed_double",
+      "minecraft:ore_gold_deltas",
+      "minecraft:ore_quartz_deltas",
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
-    ],
-    [],
-    [
-      "minecraft:spring_lava",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
     ]
   ]
 }

@@ -114,9 +114,7 @@
       "overworldify:240"
     ],
     [],
-    [
-      "minecraft:basalt_pillar"
-    ],
+    ["minecraft:basalt_pillar"],
     [],
     [],
     [],
@@ -139,8 +137,6 @@
       "minecraft:ore_debris_small"
     ],
     [],
-    [
-      "minecraft:spring_lava"
-    ]
+    ["minecraft:spring_lava"]
   ]
 }

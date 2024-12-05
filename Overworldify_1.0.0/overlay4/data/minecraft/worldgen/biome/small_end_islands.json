@@ -37,9 +37,5 @@
     "overworldify:end_cave_extra_underground",
     "overworldify:end_canyon"
   ],
-  "features": [
-    [
-      "minecraft:end_island_decorated"
-    ]
-  ]
+  "features": [["minecraft:end_island_decorated"]]
 }
