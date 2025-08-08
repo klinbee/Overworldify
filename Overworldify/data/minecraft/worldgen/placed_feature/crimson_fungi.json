@@ -12,7 +12,12 @@
         "predicate": {
           "type": "minecraft:matching_fluids",
           "offset": [0, 0, 0],
-          "fluids": "#minecraft:lava"
+          "fluids": [
+            "minecraft:water",
+            "minecraft:flowing_water",
+            "minecraft:lava",
+            "minecraft:flowing_lava"
+          ]
         }
       }
     },
