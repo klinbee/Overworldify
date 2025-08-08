@@ -1,122 +1,144 @@
 {
-  "temperature": 2,
-  "downfall": 0,
-  "has_precipitation": false,
+  "carvers": {
+    "air": [
+      "overworldify:nether/cave",
+      "overworldify:nether/cave_extra_underground",
+      "overworldify:nether/canyon"
+    ]
+  },
+  "downfall": 0.0,
   "effects": {
-    "sky_color": 7254527,
-    "fog_color": 1787717,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
-    "mood_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
     "additions_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.0111
     },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "fog_color": 1787717,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000
+    },
     "music": {
-      "sound": "minecraft:music.nether.soul_sand_valley",
-      "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.nether.soul_sand_valley"
     },
     "particle": {
       "options": {
         "type": "minecraft:ash"
       },
       "probability": 0.00625
-    }
-  },
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "weight": 60,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "misc": [],
-    "monster": [
-      {
-        "type": "minecraft:skeleton",
-        "weight": 20,
-        "minCount": 5,
-        "maxCount": 5
-      },
-      {
-        "type": "minecraft:ghast",
-        "weight": 50,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
-  "spawn_costs": {
-    "minecraft:enderman": {
-      "energy_budget": 0.15,
-      "charge": 0.7
     },
-    "minecraft:ghast": {
-      "energy_budget": 0.15,
-      "charge": 0.7
-    },
-    "minecraft:skeleton": {
-      "energy_budget": 0.15,
-      "charge": 0.7
-    },
-    "minecraft:strider": {
-      "energy_budget": 0.15,
-      "charge": 0.7
-    }
-  },
-  "carvers": {
-    "air": [
-      "overworldify:nether_overworld_cave",
-      "overworldify:nether_cave_extra_underground",
-      "overworldify:nether_canyon"
-    ]
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
     [
-      "overworldify:-64",
-      "overworldify:-48",
-      "overworldify:-32",
-      "overworldify:-16",
-      "overworldify:0",
-      "overworldify:16",
-      "overworldify:32",
-      "overworldify:48",
-      "overworldify:64",
-      "overworldify:80",
-      "overworldify:96",
-      "overworldify:112",
-      "overworldify:128",
-      "overworldify:144",
-      "overworldify:160",
-      "overworldify:176",
-      "overworldify:192",
-      "overworldify:208",
-      "overworldify:224",
-      "overworldify:240"
+      "overworldify:xz0_y-60",
+      "overworldify:xz0_y-52",
+      "overworldify:xz0_y-44",
+      "overworldify:xz0_y-36",
+      "overworldify:xz0_y-28",
+      "overworldify:xz0_y-20",
+      "overworldify:xz0_y-12",
+      "overworldify:xz0_y-4",
+      "overworldify:xz0_y4",
+      "overworldify:xz0_y12",
+      "overworldify:xz0_y20",
+      "overworldify:xz0_y28",
+      "overworldify:xz0_y36",
+      "overworldify:xz0_y44",
+      "overworldify:xz0_y52",
+      "overworldify:xz0_y60",
+      "overworldify:xz0_y68",
+      "overworldify:xz0_y76",
+      "overworldify:xz0_y84",
+      "overworldify:xz0_y92",
+      "overworldify:xz0_y100",
+      "overworldify:xz0_y108",
+      "overworldify:xz0_y116",
+      "overworldify:xz0_y124",
+      "overworldify:xz0_y132",
+      "overworldify:xz0_y140",
+      "overworldify:xz0_y148",
+      "overworldify:xz0_y156",
+      "overworldify:xz0_y164",
+      "overworldify:xz0_y172",
+      "overworldify:xz0_y180",
+      "overworldify:xz0_y188",
+      "overworldify:xz0_y196",
+      "overworldify:xz0_y204",
+      "overworldify:xz0_y212",
+      "overworldify:xz0_y220",
+      "overworldify:xz0_y228",
+      "overworldify:xz0_y236",
+      "overworldify:xz0_y244",
+      "overworldify:xz0_y252",
+      "overworldify:xz0_y260",
+      "overworldify:xz0_y268",
+      "overworldify:xz0_y276",
+      "overworldify:xz0_y284",
+      "overworldify:xz0_y292",
+      "overworldify:xz0_y300",
+      "overworldify:xz0_y308",
+      "overworldify:xz0_y316",
+      "overworldify:xz8_y-60",
+      "overworldify:xz8_y-52",
+      "overworldify:xz8_y-44",
+      "overworldify:xz8_y-36",
+      "overworldify:xz8_y-28",
+      "overworldify:xz8_y-20",
+      "overworldify:xz8_y-12",
+      "overworldify:xz8_y-4",
+      "overworldify:xz8_y4",
+      "overworldify:xz8_y12",
+      "overworldify:xz8_y20",
+      "overworldify:xz8_y28",
+      "overworldify:xz8_y36",
+      "overworldify:xz8_y44",
+      "overworldify:xz8_y52",
+      "overworldify:xz8_y60",
+      "overworldify:xz8_y68",
+      "overworldify:xz8_y76",
+      "overworldify:xz8_y84",
+      "overworldify:xz8_y92",
+      "overworldify:xz8_y100",
+      "overworldify:xz8_y108",
+      "overworldify:xz8_y116",
+      "overworldify:xz8_y124",
+      "overworldify:xz8_y132",
+      "overworldify:xz8_y140",
+      "overworldify:xz8_y148",
+      "overworldify:xz8_y156",
+      "overworldify:xz8_y164",
+      "overworldify:xz8_y172",
+      "overworldify:xz8_y180",
+      "overworldify:xz8_y188",
+      "overworldify:xz8_y196",
+      "overworldify:xz8_y204",
+      "overworldify:xz8_y212",
+      "overworldify:xz8_y220",
+      "overworldify:xz8_y228",
+      "overworldify:xz8_y236",
+      "overworldify:xz8_y244",
+      "overworldify:xz8_y252",
+      "overworldify:xz8_y260",
+      "overworldify:xz8_y268",
+      "overworldify:xz8_y276",
+      "overworldify:xz8_y284",
+      "overworldify:xz8_y292",
+      "overworldify:xz8_y300",
+      "overworldify:xz8_y308",
+      "overworldify:xz8_y316"
     ],
     [],
-    ["minecraft:basalt_pillar"],
+    [
+      "minecraft:basalt_pillar"
+    ],
     [],
     [],
     [],
@@ -139,6 +161,64 @@
       "minecraft:ore_debris_small"
     ],
     [],
-    ["minecraft:spring_lava"]
-  ]
+    [
+      "minecraft:spring_lava"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:ghast": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:skeleton": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:strider": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "maxCount": 2,
+        "minCount": 1,
+        "type": "minecraft:strider",
+        "weight": 60
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "maxCount": 5,
+        "minCount": 5,
+        "type": "minecraft:skeleton",
+        "weight": 20
+      },
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:ghast",
+        "weight": 50
+      },
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:enderman",
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
 }

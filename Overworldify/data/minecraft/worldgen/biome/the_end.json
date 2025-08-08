@@ -1,19 +1,35 @@
 {
-  "temperature": 0.5,
-  "downfall": 0.5,
-  "has_precipitation": false,
-  "effects": {
-    "sky_color": 0,
-    "fog_color": 10518688,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    }
+  "carvers": {
+    "air": [
+      "overworldify:end/cave",
+      "overworldify:end/cave_extra_underground",
+      "overworldify:end/canyon"
+    ]
   },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 10518688,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 0,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_spike"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
   "spawners": {
     "ambient": [],
     "axolotls": [],
@@ -21,23 +37,15 @@
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:enderman",
-        "weight": 10,
+        "maxCount": 4,
         "minCount": 4,
-        "maxCount": 4
+        "type": "minecraft:enderman",
+        "weight": 10
       }
     ],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "overworldify:end_cave",
-      "overworldify:end_cave_extra_underground",
-      "overworldify:end_canyon"
-    ]
-  },
-  "features": [[], [], [], [], ["minecraft:end_spike"]]
+  "temperature": 0.5
 }

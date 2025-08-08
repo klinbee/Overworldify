@@ -1,11 +1,9 @@
 {
-  "carvers": {
-    "air": [
-      "overworldify:end/cave",
-      "overworldify:end/cave_extra_underground",
-      "overworldify:end/canyon"
-    ]
-  },
+  "carvers": [
+    "overworldify:end/cave",
+    "overworldify:end/cave_extra_underground",
+    "overworldify:end/canyon"
+  ],
   "downfall": 0.5,
   "effects": {
     "fog_color": 10518688,
@@ -19,7 +17,23 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "features": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_spike"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_platform"
+    ]
+  ],
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {

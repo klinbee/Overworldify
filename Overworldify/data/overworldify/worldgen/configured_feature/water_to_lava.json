@@ -1,5 +1,5 @@
 {
-  "": "Used to remove barrier terrain spawned in dark_forests to enable mansion spawning",
+  "": "Aquifer code is hardcoded to *not* support lava, so this pack must use water aquifers and replace the water with lava; See https://gist.github.com/jacobsjo/0ce1f9d02e5c3e490e228ac5ad810482",
   "type": "minecraft:disk",
   "config": {
     "state_provider": {
@@ -18,7 +18,7 @@
     "half_height": 4,
     "target": {
       "type": "minecraft:matching_blocks",
-      "blocks": "minecraft:barrier"
+      "blocks": "minecraft:water"
     }
   }
 }

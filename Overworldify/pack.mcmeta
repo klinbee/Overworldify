@@ -21,24 +21,20 @@
   "overlays": {
     "entries": [
       {
-        "formats": [26, 999],
-        "directory": "overlay1"
-      },
-      {
         "formats": [41, 999],
-        "directory": "overlay2"
+        "directory": "overlay_1_20_5"
       },
       {
         "formats": [48, 999],
-        "directory": "overlay3"
+        "directory": "overlay_1_21"
       },
       {
         "formats": [57, 999],
-        "directory": "overlay4"
+        "directory": "overlay_1_21_2"
       },
       {
-        "formats": [60, 999],
-        "directory": "overlay5"
+        "formats": [61, 999],
+        "directory": "overlay_1_21_4"
       }
     ]
   }

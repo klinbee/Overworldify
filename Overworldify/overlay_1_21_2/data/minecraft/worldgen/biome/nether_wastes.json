@@ -1,11 +1,9 @@
 {
-  "carvers": {
-    "air": [
-      "overworldify:nether/cave",
-      "overworldify:nether/cave_extra_underground",
-      "overworldify:nether/canyon"
-    ]
-  },
+  "carvers": [
+    "overworldify:nether/cave",
+    "overworldify:nether/cave_extra_underground",
+    "overworldify:nether/canyon"
+  ],
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
