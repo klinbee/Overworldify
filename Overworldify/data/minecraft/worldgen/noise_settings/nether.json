@@ -1,4 +1,5 @@
 {
+  "": "`default_fluid` water due to aquifer bug (see `configured_feature/water_to_lava`",
   "sea_level": 64,
   "disable_mob_generation": false,
   "aquifers_enabled": true,
@@ -20,21 +21,21 @@
     "size_vertical": 2
   },
   "noise_router": {
-    "barrier": "overworldify:end/aquifer/barrier",
-    "fluid_level_floodedness": "overworldify:end/aquifer/fluid_level_floodedness",
-    "fluid_level_spread": "overworldify:end/aquifer/fluid_level_spread",
-    "lava": "overworldify:end/aquifer/lava",
-    "temperature": "overworldify:end/temperature",
-    "vegetation": "overworldify:end/vegetation",
-    "continents": "overworldify:end/continents",
-    "erosion": "overworldify:end/erosion",
-    "depth": "overworldify:end/depth",
-    "ridges": "overworldify:end/ridges",
-    "initial_density_without_jaggedness": "overworldify:end/initial_density_without_jaggedness",
-    "final_density": "overworldify:end/final_density",
-    "vein_toggle": "overworldify:end/vein/toggle",
-    "vein_ridged": "overworldify:end/vein/ridged",
-    "vein_gap": "overworldify:end/vein/gap"
+    "barrier": "overworldify:nether/aquifer/barrier",
+    "fluid_level_floodedness": "overworldify:nether/aquifer/fluid_level_floodedness",
+    "fluid_level_spread": "overworldify:nether/aquifer/fluid_level_spread",
+    "lava": "overworldify:nether/aquifer/lava",
+    "temperature": "overworldify:nether/temperature",
+    "vegetation": "overworldify:nether/vegetation",
+    "continents": "overworldify:nether/continents",
+    "erosion": "overworldify:nether/erosion",
+    "depth": "overworldify:nether/depth",
+    "ridges": "overworldify:nether/ridges",
+    "initial_density_without_jaggedness": "overworldify:nether/initial_density_without_jaggedness",
+    "final_density": "overworldify:nether/final_density",
+    "vein_toggle": "overworldify:nether/vein/toggle",
+    "vein_ridged": "overworldify:nether/vein/ridged",
+    "vein_gap": "overworldify:nether/vein/gap"
   },
   "spawn_target": [],
   "surface_rule": {
