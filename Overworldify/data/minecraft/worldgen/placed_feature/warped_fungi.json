@@ -6,17 +6,18 @@
       "count": 4
     },
     {
-      "type": "minecraft:biome"
-    },
-    {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:not",
         "predicate": {
           "type": "minecraft:matching_fluids",
+          "offset": [0, 0, 0],
           "fluids": "#minecraft:lava"
         }
       }
+    },
+    {
+      "type": "minecraft:biome"
     }
   ]
 }
