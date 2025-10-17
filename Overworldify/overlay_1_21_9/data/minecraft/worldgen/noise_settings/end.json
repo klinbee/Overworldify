@@ -1,0 +1,43 @@
+{
+  "sea_level": -64,
+  "disable_mob_generation": false,
+  "aquifers_enabled": true,
+  "ore_veins_enabled": false,
+  "legacy_random_source": true,
+  "default_block": {
+    "Name": "minecraft:end_stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air"
+  },
+  "noise": {
+    "min_y": -64,
+    "height": 384,
+    "size_horizontal": 1,
+    "size_vertical": 2
+  },
+  "noise_router": {
+    "barrier": "overworldify:end/aquifer/barrier",
+    "fluid_level_floodedness": "overworldify:end/aquifer/fluid_level_floodedness",
+    "fluid_level_spread": "overworldify:end/aquifer/fluid_level_spread",
+    "lava": "overworldify:end/aquifer/lava",
+    "temperature": "overworldify:end/temperature",
+    "vegetation": "overworldify:end/vegetation",
+    "continents": "overworldify:end/continents",
+    "erosion": "overworldify:end/erosion",
+    "depth": "overworldify:end/depth",
+    "ridges": "overworldify:end/ridges",
+    "preliminary_surface_level": "overworldify:end/initial_density_without_jaggedness",
+    "final_density": "overworldify:end/final_density",
+    "vein_toggle": "overworldify:end/vein/toggle",
+    "vein_ridged": "overworldify:end/vein/ridged",
+    "vein_gap": "overworldify:end/vein/gap"
+  },
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:block",
+    "result_state": {
+      "Name": "minecraft:end_stone"
+    }
+  }
+}
